@@ -2,20 +2,20 @@
 # Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
 # Licensed under MIT
 
-lang:
-  name: Chinese
+lng:
+  name: English
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-  code: zh-CN
+  code: en
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: US
-  switch_title: Cn
+  switch_title: En
   offer:
-    title: 语言
+    title: Language
     msg_page: View this page in English.
     # if page translation is not available, use this.
-    msg_site: 回到主页
+    msg_site: To home
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
@@ -23,29 +23,29 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
+  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: 页面未找到
-  line1: 您请求的页面无法找到
-  line2: 尝试菜单或站点搜索（如果可用）
+  header: Page not found
+  line1: The page you requested could not be found.
+  line2: Try menu, or site search if available.
 
-no_translation_tooltip: 没有翻译
+no_translation_tooltip: No Translation
 
 navigation:
-  contact_header: 联系
+  contact_header: Contact
 
-color_scheme_switch_tooltip: 配色方案
+color_scheme_switch_tooltip: Color scheme
 
 search:
-  placeholder: 搜索
-  noResultText: 没有找到任何结果
+  placeholder: Search
+  noResultText: No results were found.
 
 image_viewer:
-  load_error: 无法加载图像
+  load_error: The image could not be loaded.
 
 copyright:
-  additional_text: " 版权所有"
+  additional_text: " All rights reserved."
 
 creative_commons:
   some_rights_reserved: Some rights reserved.
@@ -64,8 +64,8 @@ not-found:
 # for post layout
 post:
   read_time:
-    unit: " 分钟"
-    text: " 阅读"
+    unit: " min"
+    text: " read"
     # c for char w for word
     word_char: w
     # char or words per minute
@@ -76,10 +76,10 @@ post:
     first_post: First
     last_post: Last
   comments:
-    noscript: 请启用 JavaScript 以查看评论
+    noscript: Please enable JavaScript to view the Comments.
     disqus:
-      count_title: 评论
-      click_to_load: "加载评论"
+      count_title: Comments
+      click_to_load: "Load comments"
       consent:
         title: Comments (Disqus.com)
         text: >
