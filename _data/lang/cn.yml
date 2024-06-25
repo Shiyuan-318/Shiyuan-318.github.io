@@ -2,7 +2,7 @@
 # Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
 # Licensed under MIT
 
-lng:
+lang:
   name: Chinese
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
   code: zh-CN
